@@ -41,4 +41,3 @@ Azure -> https://azure.microsoft.com/en-us/
 
 Note: Use the free tiar that these providers offer.
 
-Other References
