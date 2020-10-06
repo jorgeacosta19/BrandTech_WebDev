@@ -1,0 +1,135 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    background-color: rgb(64, 146, 112);
+    width: 28rem;
+    height: 38rem;
+    border: solid black .3rem;
+    display: grid;
+    grid-template-rows: 25% 75%;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.btn {
+    background-color: rgba(95, 158, 160, 0.787);
+    border: .1rem solid;
+    margin: .3rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.btn:hover {
+    background-color: rgba(66, 129, 131, 0.787);
+}
+
+.screen {
+    background-color: cadetblue;
+    border: solid .2rem black;
+    margin: .4rem;
+    border-radius: 8px;
+    text-align: right;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#zero {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+#one {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+#two {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+#three {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+#four {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#five {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#six {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#seven {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#eight {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#nine {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+#sum {
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+
+#sub {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+#mult {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+#division {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+#equal {
+    grid-column: 4/5;
+    grid-row: 5/6;
+}
+
+#decimal {
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
+#clear {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
