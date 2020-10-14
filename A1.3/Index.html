@@ -10,61 +10,74 @@
 </head>
 
 <body>
-    <header>
-        <h1 id="logo">Landing page</h1>
-    </header>
 
-    <div class="main">
+    <div class="content">
+        <header>
+            <h1 id="logo">Landing page</h1>
+        </header>
 
-        <div class="information">
+        <div class="main">
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima hic deserunt aspernatur maiores. Minus similique facere quod tempora, temporibus quas molestiae, est alias quae quaerat omnis deserunt repudiandae eveniet. Quibusdam ipsum aut
-                quam est iste, dolorum excepturi modi in hic ab corporis, autem fugiat tempore!</p>
+            <div class="information">
 
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium ullam eveniet, reprehenderit cupiditate itaque voluptatibus totam quibusdam eaque. Nulla ducimus obcaecati nihil beatae est natus iste molestiae voluptatem cum voluptatibus?
-                Perferendis nihil omnis consequatur? Quisquam neque alias id? Laudantium saepe assumenda inventore sed asperiores consequuntur in sit aut delectus itaque.</p>
-        </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima hic deserunt aspernatur maiores. Minus similique facere quod tempora, temporibus quas molestiae, est alias quae quaerat omnis deserunt repudiandae eveniet. Quibusdam ipsum
+                    aut quam est iste, dolorum excepturi modi in hic ab corporis, autem fugiat tempore!</p>
 
-        <form action="">
-            <div class="form_box">
-                <h2>Request more information</h2>
-                <div>
-                    <label for="name">Name:</label> <br>
-                    <input type="text" minlength="3" maxlength="20" id="name" name="name" placeholder="Name">
+                <div class="video">
+                    <video controls>
+                        <source src="video/20171127_134609.mp4" type="video/mp4"> 
+                    </video>
                 </div>
+            </div>
 
-                <div>
-                    <label for="surname">Surname:</label> <br>
-                    <input type="text" id="surname" name="surname" placeholder="Surname">
-                </div>
+            <form action="" id="form1" class="contac-form">
+                <div class="form_box">
+                    <h2>Request more information</h2>
+                    <div>
+                        <label for="name">Name:</label> <br>
+                        <input required type="text" id="name" name="name" placeholder="Name">
+                        <!-- <input required type="text" minlength="3" maxlength="20" id="name" name="name" placeholder="Name">   -->
+                    </div>
 
-                <div>
-                    <label for="email">email:</label> <br>
-                    <input type="email" id="email" name="email" placeholder="example@email.com">
-                </div>
+                    <div>
+                        <label for="surname">Surname:</label> <br>
+                        <input type="text" id="surname" name="surname" placeholder="Surname">
+                    </div>
 
-                <div>
-                    <label for="gender">Gender:</label>
-                    <select name="gender" id="gender">
+                    <div>
+                        <label for="email">email:</label> <br>
+                        <input required type="email" id="email" name="email" placeholder="example@email.com">
+                    </div>
+
+                    <div>
+                        <label for="gender">Gender:</label>
+                        <select name="gender" id="gender">
                      <option value="">--Choose--</option>
                      <option value="MALE">Male</option>
                      <option value="FEMALE">Female</option>
                     </select>
-                </div>
+                    </div>
 
-                <div>
-                    <textarea name="request" id="request" cols="30" rows="10" placeholder="Comments"></textarea>
-                </div>
+                    <div>
+                        <textarea name="request" id="request" cols="30" rows="10" placeholder="Comments"></textarea>
+                    </div>
 
-                <div>
-                    <input type="submit" class="button" id="btnRequest" value="Send">
+                    <div>
+                        <input type="submit" class="button" id="btnRequest" value="Send">
+                    </div>
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
+
     </div>
+
 
     <script src="js/script.js"></script>
 </body>
+
+<footer class="footer">
+    <p class="copy ">&copy;2020 BrandTech Web Developer course</p>
+</footer>
 
 
 </html>
