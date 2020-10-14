@@ -34,7 +34,7 @@ body {
 }
 
 .screen {
-    background-color: cadetblue;
+    background-color: rgb(154, 204, 206);
     border: solid .2rem black;
     margin: .4rem;
     border-radius: 8px;

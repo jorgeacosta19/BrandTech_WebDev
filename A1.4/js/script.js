@@ -99,6 +99,7 @@ function calculator() {
         var solv = 0;
         switch (valueC) {
             case "+":
+
                 solv = parseFloat(valueA) + parseFloat(valueB);
                 break;
             case "-":
@@ -111,10 +112,9 @@ function calculator() {
             case "/":
                 solv = parseFloat(valueA) / parseFloat(valueB);
                 break;
-            default:
-                break;
+
         }
-        cleaning();
+        // clearScreen();
         $result.textContent = solv;
 
     }
