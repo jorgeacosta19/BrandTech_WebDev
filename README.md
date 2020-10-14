@@ -23,6 +23,7 @@ Using the same previous exercise with GIT, create a new commit.
 Handle the submission of the form with validation and a simple error handler:
 
 Check for: Valid Email, Name longer than 3 letters, and less than 20 letters.
+Using if and Else.
 
 ALERT with JavaScript the request.
 Note: It is not allowed to use Bootstrap, JQuery, React, or any JS or CSS Framework
@@ -32,12 +33,5 @@ Create a Calculator that should be able to handle:
 Sum, divide, multiply, and subtract
 Note: It is not allowed to use Bootstrap, JQuery, React, or any JS or CSS Framework
 
-A1.5 5th Assignment Cloud Computing
-Create a PC with any Cloud Computing Provider from the list:
 
-AWS -> https://aws.amazon.com/es/
-Google Cloud -> https://cloud.google.com/
-Azure -> https://azure.microsoft.com/en-us/
-
-Note: Use the free tiar that these providers offer.
 
