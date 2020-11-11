@@ -1,4 +1,4 @@
-#Assigments for the course Become Web Developer from scatch by BrandTech:
+Assigments for the course Become Web Developer from scatch by BrandTech:
 
                     Frontend
 A1 & A2 are assigments focused in HTML, CSS and JavaScript.
