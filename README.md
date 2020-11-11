@@ -2,7 +2,9 @@ Assigments for the course Become Web Developer from scatch by BrandTech:
 
                     Frontend
 A1 are assigments focused in HTML, CSS and JavaScript (Note: It is not allowed to use Bootstrap or any CSS library or framework):
+
   A1.1 Create a CV with your Picture, Cover Letter, and your experiences.
+  
   A1.2 Create a landing page for promotion. It should contain:
   Header
   Web Form including:
@@ -10,6 +12,7 @@ A1 are assigments focused in HTML, CSS and JavaScript (Note: It is not allowed t
   b) Dropdown for Gender
   c) Long text input for a description of the request
   d) Button for submission
+  
   A1.4 Create a Calculator that should be able to handle:
   Sum, divide, multiply, and subtract
 
